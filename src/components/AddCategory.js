@@ -5,48 +5,50 @@ const AddCategory = (props) => {
     let classNumber = 1; 
 
     const handleDeleteInputs = (e) => {
-        let inputs = document.querySelectorAll(`.newBook`);
-        let buttonDelete = e.target.className;
+        let inputs = document.querySelectorAll('.create-list__new-book');
+        let buttonDelete = e.target.className[0];
         inputs.forEach(input => {
-            if(input.className===buttonDelete) document.getElementById('list').removeChild(input);
-            return console.log(input);
+            if(input.className[0]===buttonDelete) document.querySelector('.create-list').removeChild(input);
         })
     }
     
     const handleAddCategory = () => {
-        let form = document.getElementById('list');
+        let form = document.querySelector('.create-list');
+
+        //label and input with category
         let label = document.createElement('label');
         label.innerHTML = "Category of a book: ";
-        label.setAttribute('class', `input${classNumber} newBook`);
+        label.setAttribute('class', `create-list__input${classNumber} create-list__new-book create-list__category-description`);
         let input = document.createElement('input');
         input.type = 'text';
-        input.setAttribute('name', 'category');
-        input.setAttribute('id', 'category');
-        input.setAttribute('class', `input${classNumber} newBook`);
+        input.setAttribute('class', `create-list__input${classNumber} create-list__new-book create-list__category-input`);
         form.appendChild(label);
         form.appendChild(input);
+
+        // label and input with books
         let label2 = document.createElement('label');
         label2.innerHTML = "Chosen book: ";
-        label2.setAttribute('class', `input${classNumber} newBook`);
+        label2.setAttribute('class', `create-list__input${classNumber} create-list__new-book create-list__book-description`);
         let input2 = document.createElement('input');
         input2.type = 'text';
-        input2.setAttribute('name', 'book');
-        input2.setAttribute('id', 'book');
-        input2.setAttribute('class', `input${classNumber} newBook`);
+        input2.setAttribute('class', `create-list__input${classNumber} create-list__new-book create-list__book-input`);
         form.appendChild(label2);
         form.appendChild(input2);
+
+        // delete button
         let button = document.createElement('button');
         button.innerHTML = 'Delete';
         button.onclick = handleDeleteInputs;
         button.type = 'button';
-        button.setAttribute('class', `input${classNumber} newBook`);
+        button.setAttribute('class', `create-list__input${classNumber} create-list__new-book create-list__delete-btn`);
         form.appendChild(button);
+
         form.appendChild(document.createElement("br"));
         classNumber++;
         }
     return (
         <>
-            <button onClick={handleAddCategory}>Add new category</button>
+            <button className="create-list__add-category-btn" onClick={handleAddCategory}>Add new category</button>
         </>
     );
 }

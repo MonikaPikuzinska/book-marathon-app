@@ -1,29 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AddCategory from './AddCategory';
 import Submit from './Submit';
 
-class MarathonApp extends Component {
-  state = {
-  }
-
-    render() {
+const MarathonApp = () => {
         return (
           <>
           <h1>Make your own book list for a reading marathon!</h1>
-          <form id="list">
-            <label>Marathon name: </label>
-            <input type="text" id="mname" name="mname"/><br/>
-            <label>Category of a book: </label>
-            <input type="text" id="category" name="category"/>
-            <label>Chosen book: </label>
-            <input type="text" id="book" name="book"/><br/>
+          <form className="create-list">
+            <label className="create-list__name-description">Marathon name: </label>
+            <input type="text" className="create-list__name-input"/><br/>
+            <label className="create-list__category-description">Category of a book: </label>
+            <input type="text" className="create-list__category-input"/>
+            <label className="create-list__book-description">Chosen book: </label>
+            <input type="text" className="create-list__book-input"/><br/>
           </form>
           <AddCategory/>
           <Submit/>
           </>
-        );
-      }
-    
+        )
 }        
 
 
