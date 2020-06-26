@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/book-marathon-app/static/css/main.5633a6c5.chunk.css",
+    "main.js": "/book-marathon-app/static/js/main.4fc2c3a2.chunk.js",
+    "main.js.map": "/book-marathon-app/static/js/main.4fc2c3a2.chunk.js.map",
+    "runtime-main.js": "/book-marathon-app/static/js/runtime-main.17c5a2da.js",
+    "runtime-main.js.map": "/book-marathon-app/static/js/runtime-main.17c5a2da.js.map",
+    "static/js/2.a29a13c0.chunk.js": "/book-marathon-app/static/js/2.a29a13c0.chunk.js",
+    "static/js/2.a29a13c0.chunk.js.map": "/book-marathon-app/static/js/2.a29a13c0.chunk.js.map",
+    "index.html": "/book-marathon-app/index.html",
+    "precache-manifest.a2cc3606f40133b34767cf81ae7cb576.js": "/book-marathon-app/precache-manifest.a2cc3606f40133b34767cf81ae7cb576.js",
+    "service-worker.js": "/book-marathon-app/service-worker.js",
+    "static/css/main.5633a6c5.chunk.css.map": "/book-marathon-app/static/css/main.5633a6c5.chunk.css.map",
+    "static/js/2.a29a13c0.chunk.js.LICENSE.txt": "/book-marathon-app/static/js/2.a29a13c0.chunk.js.LICENSE.txt",
+    "static/media/main.min.css": "/book-marathon-app/static/media/remove.c4fdb2a4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17c5a2da.js",
+    "static/js/2.a29a13c0.chunk.js",
+    "static/css/main.5633a6c5.chunk.css",
+    "static/js/main.4fc2c3a2.chunk.js"
+  ]
+}
