@@ -1,0 +1,50 @@
+.marathon
+    background-color: #ffffff00
+    
+    
+.marathon__list
+    display: block
+    position: relative
+    background-color: #fff
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+    padding: 10px
+    margin: 25px 
+    border: 2px solid black
+    &__delete-list-btn
+        position: absolute
+        left: 98%
+        bottom: 88%
+        height: 25px
+        width: 25px
+        background: url("../icons/remove.svg") no-repeat center
+        background-size: contain
+        background-color: #fff
+        &:hover
+            cursor: pointer
+
+    &__title
+        display: block
+        margin-bottom: 15px
+        text-align: center
+        font-size: 22px
+        background-color: #fff 
+        @media ( min-width: 840px )
+            font-size: 25px       
+
+    &__book
+        display: inline-block
+        margin-left: 10px
+        margin-bottom: 10px
+        background-color: #fff
+        color: #2b2b2ba6
+        @media ( min-width: 840px )
+            font-size: 18px
+        &--read
+            color: #2b2b2b5b
+    
+    &__checkbox
+        width: 18px
+        height: 18px
+        @media ( min-width: 840px )
+            width: 22px
+            height: 22px

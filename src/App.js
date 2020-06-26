@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import MarathonApp from './components/MarathonApp';
+import './css/main.min.css';
 
 function App() {
   return (
