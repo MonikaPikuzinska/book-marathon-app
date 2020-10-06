@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddCategory = (props) => {
+const AddCategory = () => {
 
     let classNumber = 1; 
 
