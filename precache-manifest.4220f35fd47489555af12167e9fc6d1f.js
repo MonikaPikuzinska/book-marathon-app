@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3f06a1cd855f5888ffc33dea2e4629b",
+    "revision": "060bf62267446da76d9f6a8862f9a002",
     "url": "/book-marathon-app/index.html"
   },
   {
-    "revision": "e0a1e5ae9be8e439b2fc",
+    "revision": "8e2c42c1e64e94ed9610",
     "url": "/book-marathon-app/static/css/main.5633a6c5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/book-marathon-app/static/js/2.a29a13c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0a1e5ae9be8e439b2fc",
-    "url": "/book-marathon-app/static/js/main.4fc2c3a2.chunk.js"
+    "revision": "8e2c42c1e64e94ed9610",
+    "url": "/book-marathon-app/static/js/main.42acac46.chunk.js"
   },
   {
     "revision": "93acb89b95e41eaf20f2",
