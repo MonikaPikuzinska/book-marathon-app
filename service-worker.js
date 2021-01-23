@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/book-marathon-app/precache-manifest.30bd76db768c9e1966be04f2485a56e7.js"
+  "/book-marathon-app/precache-manifest.5f965d108aad0ce8af949c714e571ec2.js"
 );
 
 self.addEventListener('message', (event) => {
